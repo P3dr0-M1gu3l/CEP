@@ -1,0 +1,96 @@
+body{
+    font-family: 'Arvo', serif;
+    background-image: linear-gradient(#f9dbb5, #8c705b);
+}
+
+.cabecalho{
+    background-color: #8c705b;
+    color:#000000;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    padding: 1%;
+}
+
+ul {
+    
+    width:100%; 
+    float:left; 
+    text-align:center; 
+
+}
+
+li {
+
+    padding-right: 20px;
+    display: inline-block;
+    list-style:none;
+
+}
+
+li .menu {
+
+    font-family: 'Arvo', serif;
+   font-size: 1.9em;
+   text-decoration: none;
+   color:#f9dbb5;
+   -webkit-border-box: 0 1px 0 0 #f9dbb5;
+   border-bottom: 4px solid transparent;
+}
+
+li .menu:hover {
+    
+    border-bottom:4px solid #1c2536;
+}
+
+.imagem-do-cabecalho{
+ width: 15%;
+ height: 15%;
+ padding: 0 65px;
+}
+
+.descricao{
+    background-image: linear-gradient(#8c705b , #f9dbb5);
+    color: rgb(255, 255, 255);
+    padding: 3%;
+    display: flex;
+}
+
+.texto{
+    display: inline-block;
+}
+
+.texto-da-robótica{
+    text-align: center;
+    padding: 50px;
+}
+
+.t1{
+    display: inline-block;
+    margin: 3px 20px;
+}
+
+.texto-da-robótica-imagem{
+    text-align: center;
+    padding: 50px;
+}
+
+.imagem-tags{
+    padding-left: 28%;
+    padding-bottom: 20px;
+}
+
+.rodapé{
+    background-color:#8c705b;
+    text-align: center;
+}
+
+.radapé-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
+
+#borderDemo {
+    border: 5px double #1c2536;
+    border-radius: 30px 30px 30px 30px;
+    }
