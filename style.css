@@ -85,6 +85,11 @@ li .menu:hover {
     text-align: center;
 }
 
+.formulario{
+    font-family: 'Arvo', serif;
+    color: #f9dbb5;
+}
+
 .radapé-imagem{
     height: 60px;
     padding: 12px 0;
